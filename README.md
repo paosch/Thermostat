@@ -1,10 +1,9 @@
-# Thermostat: business logic
+# Thermostat
 
-In this challenge, you will build the logic needed to model a simple thermostat.
+The logic needed to model a simple thermostat, written in JavaScript.
 
-### Challenge setup
 
-Specification:
+## Specifications
 
 * Thermostat starts at 20 degrees
 * You can increase the temperature with an up function
@@ -17,5 +16,17 @@ Specification:
 * You can ask about the thermostat's current energy usage: < 18 is `low-usage`, < 25 is `medium-usage`, anything else is `high-usage`.
 * (In the challenges where we add an interface, low-usage will be indicated with green, medium-usage indicated with black, high-usage indicated with red.)
 
-### Learning Objectives covered
-* Use Jasmine to Test-Drive Development of a thermostat
+
+
+## Learning Objectives covered
+
+* Using Jasmine to Test-Drive Development of a thermostat
+* Linking logic to a dynamic visual interface using jQuery, HTML and CSS
+* Using JavaScript to fetch data from external sources and displaying that on the page, getting the weather information for different cities from a weather API
+
+
+
+## Screenshot of user interface
+
+
+![screen shot 2018-05-13 at 19 26 35](https://user-images.githubusercontent.com/33669463/39970454-baf1ced8-56e3-11e8-9537-9c9081aabd47.png)
