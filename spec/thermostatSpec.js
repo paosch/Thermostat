@@ -42,6 +42,7 @@ describe('Thermostat', function(){
     });
 
   it('when power saving mode is off, maximum temperature is 32 degrees', function() {
+      thermostat.powerSavingMode = false
       for (var i = 0; i < 12; i++) {
         thermostat.up();
       }
@@ -59,15 +60,14 @@ describe('Thermostat', function(){
       for ( var i = 0; i < 3; i++){
       thermostat.down();
     }
-     // thermostat.temperature = 17
       expect(thermostat.energyUsage()).toEqual('low-usage');
   });
 
   it('says energy usage is high when temperature is over 25 degrees', function(){
+    thermostat.powerSavingMode = false
     for (var i = 0; i < 6; i++){
       thermostat.up();
     }
-    // thermostat.temperature = 26;
     expect(thermostat.energyUsage()).toEqual('high-usage');
   });
 
