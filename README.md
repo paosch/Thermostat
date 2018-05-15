@@ -25,8 +25,12 @@ The logic needed to model a simple thermostat, written in JavaScript.
 * Using JavaScript to fetch data from external sources and displaying that on the page, getting the weather information for different cities from a weather API
 
 
+## Test coverage
+
+![screen shot 2018-05-15 at 16 47 10](https://user-images.githubusercontent.com/33669463/40068137-d2527046-585f-11e8-8bae-c406c3a2174d.png)
 
 ## Screenshot of user interface
 
 
 ![screen shot 2018-05-13 at 19 26 35](https://user-images.githubusercontent.com/33669463/39970454-baf1ced8-56e3-11e8-9537-9c9081aabd47.png)
+
