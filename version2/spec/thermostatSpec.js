@@ -10,4 +10,7 @@ describe('Thermostat', function(){
   it('temperature can be increased', function(){
     expect(thermostat.up()).toEqual(21);
   });
+  it('temperature can be lowered', function(){
+    expect(thermostat.down()).toEqual(19);
+  });
 });
