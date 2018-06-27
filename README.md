@@ -2,6 +2,9 @@
 
 The logic needed to model a simple thermostat, written in JavaScript.
 
+Version 1 folder: it contains the program I wrote during the Makers Academy course.
+Version 2 folder: work in progress. I am re-writing the original Thermostat program to practise javaScript, version contol, Jasmine, as well as to improve the code of the first version. 
+
 
 ## Specifications
 
